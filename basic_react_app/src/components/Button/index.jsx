@@ -1,5 +1,7 @@
+import styles from "./index.module.css";
+
 export function Button() {
   return (
-    <button>Oi</button>
+    <button className={styles.btn}>Oi</button>
   );
 }
