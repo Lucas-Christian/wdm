@@ -1,3 +1,4 @@
+import { SayMyName } from "./components/SayMyName";
 import { Button } from "./components/Button";
 import { Logo } from "./components/Logo";
 import "./styles/App.css";
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Logo />
-        <Button />
+        <Button>Clique em mim</Button>
+        <SayMyName name="Luch" />
       </header>
     </div>
   );

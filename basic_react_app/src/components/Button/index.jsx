@@ -1,7 +1,9 @@
 import styles from "./index.module.css";
 
-export function Button() {
+export function Button({children}) {
   return (
-    <button className={styles.btn}>Oi</button>
+    <button className={styles.btn}>
+      {children}
+    </button>
   );
 }
